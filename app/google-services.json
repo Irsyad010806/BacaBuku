@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "170249844744",
+    "project_id": "bacabukuapp",
+    "storage_bucket": "bacabukuapp.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:170249844744:android:e2be199e81e3b7f6b739bd",
+        "android_client_info": {
+          "package_name": "bacabuku.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBkLupwDT4zN-V5HFiuKGOXzTZF1eZFzTw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
