@@ -95,8 +95,10 @@ export default function HomeScreen() {
                 key={option}
                 style={styles.dropdownItem} 
                 onPress={() => { 
-                  alert(`You selected: ${option}`); 
-                  setOpenDropdown(null); 
+                  setOpenDropdown(null);
+                  if (option === 'Kelas 10') router.push('/SMA10');
+                  else if (option === 'Kelas 11') router.push('/SMA11');
+                  else if (option === 'Kelas 12') router.push('/SMA12'); 
                 }}
               >
                 <ThemedText style={{ color: '#333333' }}>{option}</ThemedText>
@@ -122,8 +124,10 @@ export default function HomeScreen() {
                 key={option}
                 style={styles.dropdownItem} 
                 onPress={() => { 
-                  alert(`You selected: ${option}`);
                   setOpenDropdown(null);
+                  if (option === 'Kelas 10') router.push('/MA10');
+                  else if (option === 'Kelas 11') router.push('/MA11');
+                  else if (option === 'Kelas 12') router.push('/MA12');
                  }}
               >
                 <ThemedText style={{ color: '#333333' }}>{option}</ThemedText>

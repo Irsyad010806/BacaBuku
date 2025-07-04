@@ -7,7 +7,7 @@ import BukuList from './seed';
 export default function Ma10() {
   return (
     <ThemedView style={{ flex: 1, backgroundColor: '#ffff', justifyContent: 'center', alignItems: 'center' }}>
-      <ThemedText type="title">Halaman Ma10</ThemedText>
+      <ThemedText type="title">Halaman SMK KELAS 10</ThemedText>
     </ThemedView>
   );
 }
